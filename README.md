@@ -1,6 +1,4 @@
-
- 
- # music-mixer
+  # music-mixer
 This repository is for an interactive webpage where users can place icons of musical instruments into the center of the dancefloor to trigger a loop of that instrument. These instruments include a synthesizer, a drum, a guitar and a bass. The theme is reminiscent of the popular disco/funk sound of the 80's with influences of 90's west coast hip hop.
 
 ## Installation
@@ -17,4 +15,3 @@ there is no installation required. Simply download the accompanying files to you
 
 ## Credits
 none
-
