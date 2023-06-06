@@ -1,7 +1,8 @@
 /*general styles*/
 
 body{
-    background-color:rgb(4, 4, 45)
+    background-color:rgb(4, 4, 45);
+    font-family: 'Zeyada', cursive;
 }
 
 h1, h2, h3, h4, p {
