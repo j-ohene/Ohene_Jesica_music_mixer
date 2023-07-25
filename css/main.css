@@ -15,7 +15,12 @@ h1{
 h2{
 font-size: 24pt;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+p {  font-size:18pt;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*specific styles*/
 .box {
     background-color: rgb(4, 4, 45);
     color:rgb(214, 177, 96);
@@ -34,12 +39,17 @@ img, #discoball{
     height:100px;
     padding-top: 20px;
 }
-#dancefloor{
-  width: 1200px;
-  height:800px;
-  border-color:cornflowerblue;
+#dancefloor {
+  width: 980px;
+  height:780px;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right:10px;
+  border:solid cornflowerblue;
   background-image:url(../img/Dancefloor.gif);
   background-repeat: no-repeat;
+  padding-right:0px;
 }
 
 button {
@@ -57,7 +67,8 @@ button {
   margin-bottom:10px;
   margin-left:10px;
   margin-right:10px;
-  border:solid rgb(214, 177, 96);
+  border:solid cornflowerblue;
+ cursor:pointer;
 }
 
 #theSynth{
