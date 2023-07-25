@@ -39,7 +39,7 @@ img, #discoball{
     height:100px;
     padding-top: 20px;
 }
-#dancefloor {
+#danceFloor {
   width: 980px;
   height:780px;
   margin-top:10px;
@@ -67,6 +67,7 @@ button {
   margin-bottom:10px;
   margin-left:10px;
   margin-right:10px;
+  background-color: rgb(47, 27, 72);
   border:solid cornflowerblue;
  cursor:pointer;
 }
@@ -74,44 +75,18 @@ button {
 #theSynth{
   width: 300px;
   height:300px;
-  margin-top:10px;
-  margin-bottom:10px;
-  margin-left:10px;
-  margin-right:10px;
-  border:solid rgb(214, 177, 96);
-  border-radius:15%;
-  background-color: rgb(97, 107, 214);
+ 
 }
 #boomBox{
   width: 300px;
   height:300px;
-  margin-top:10px;
-  margin-bottom:10px;
-  margin-left:10px;
-  margin-right:10px;
-  border:solid rgb(214, 177, 96);
-  border-radius:15%;
-  background-color: rgb(97, 107, 214);
 }
 #thePiano{
   width: 300px;
   height:300px;
-  margin-top:10px;
-  margin-bottom:10px;
-  margin-left:10px;
-  margin-right:10px;
-  border:solid rgb(214, 177, 96);
-  border-radius:15%;
-  background-color: rgb(97, 107, 214);
+
 }
 #theDrum{
   width: 300px;
   height:300px;
-  margin-top:10px;
-  margin-bottom:10px;
-  margin-left:10px;
-  margin-right:10px;
-  border:solid rgb(214, 177, 96);
-  border-radius:15%;
-  background-color: rgb(97, 107, 214);
 }
