@@ -1,0 +1,36 @@
+/*general styles*/
+
+body{
+    background-color:rgb(4, 4, 45);
+    font-family: 'Zeyada', cursive;
+}
+
+h1, h2, h3, h4, p {
+    color:rgb(214, 177, 96)
+}
+h1{
+    font-size: 52pt;
+    padding:10px;
+}
+h2{
+font-size: 24pt;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box {
+    background-color: rgb(4, 4, 45);
+    color:rgb(214, 177, 96);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-color: black;
+  }
+  .spacer {
+    margin-top: 40px;
+  }
+  img, #discoball{
+    width:100px;
+    height:100px;
+    padding-top: 20px;
+}
