@@ -40,10 +40,12 @@ function draggedOver (e) {
     e.preventDefault();
     console.log("Item was dropped");
     this.appendChild(draggedPiece);
-    //lets makes some music//
+
+    //to play music// 
+    
 synth.src = "audio/synth-2.wav";
 synth.load();
-document.body.appendChild(synth)
+document.body.appendChild(synth);
 synth.play();
 
 boombox.src = "audio/Digi-Bass-03.wav";
