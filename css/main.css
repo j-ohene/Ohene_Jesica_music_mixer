@@ -76,15 +76,27 @@ button {
   width: 300px;
   height:300px;
 }
+#theSynth:hover{
+  scale: 110%;
+}
 #boomBox{
   width: 300px;
   height:300px;
+}
+#boombox:hover{
+  scale: 110%;
 }
 #thePiano{
   width: 300px;
   height:300px;
 }
+#thePiano:hover{
+  scale: 110%
+}
 #theDrum{
   width: 300px;
   height:300px;
+}
+#theDrum:hover{
+  scale: 110%
 }
