@@ -12,6 +12,12 @@ console.log(thePiano),
 console.log(theDrum),
 console.log(danceFloor);
 
+let synth = document.createElement ("audio")
+console.log(theSynth)
+
+let boombox = document.createElement ("audio")
+console.log(boomBox)
+
 //function
 function startedDragging (){
     console.log ("started dragging");
@@ -25,7 +31,19 @@ function draggedOver (e) {
     e.preventDefault();
     console.log("Item was dropped");
     this.appendChild(draggedPiece);
+    //lets makes some music//
+synth.src = "audio/synth-2.wav";
+synth.load();
+document.body.appendChild(synth);
+synth.play();
+
+boombox.src = "audio/Digi-Bass-03.wav";
+boombox.load();
+document.body.appendChild(boombox);
+boombox.play();
+
  }
+
  //eventListeners
 theSynth.addEventListener("dragstart", startedDragging);
 boomBox.addEventListener("dragstart", startedDragging);
@@ -33,4 +51,6 @@ thePiano.addEventListener("dragstart", startedDragging);
 theDrum.addEventListener("dragstart", startedDragging);
 danceFloor.addEventListener("dragover", draggedOver);
 danceFloor.addEventListener("drop", dropped);
+synth.addEventListener("drop", dropped);
+boombox.addEventListener("drop", dropped);
 
