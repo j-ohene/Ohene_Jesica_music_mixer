@@ -18,6 +18,9 @@ console.log(theSynth)
 let boombox = document.createElement ("audio")
 console.log(boomBox)
 
+let piano = document.createElement ("audio")
+console.log(thePiano)
+
 //function
 function startedDragging (){
     console.log ("started dragging");
@@ -42,6 +45,11 @@ boombox.load();
 document.body.appendChild(boombox);
 boombox.play();
 
+piano.src = "audio/House-Piano.wav";
+piano.load();
+document.body.appendChild(piano);
+piano.play();
+
  }
 
  //eventListeners
@@ -53,4 +61,5 @@ danceFloor.addEventListener("dragover", draggedOver);
 danceFloor.addEventListener("drop", dropped);
 synth.addEventListener("drop", dropped);
 boombox.addEventListener("drop", dropped);
+piano.addEventListener("drop", dropped);
 
