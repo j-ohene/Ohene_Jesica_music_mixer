@@ -14,4 +14,4 @@ there is no installation required. Simply download the accompanying files to you
 # #History
 
 ## Credits
-none
+Jesica Ohene
