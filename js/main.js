@@ -4,9 +4,10 @@ const boomBox = document.querySelector("#boomBox");
 const thePiano = document.querySelector("#thePiano");
 const theDrum = document.querySelector("#theDrum");
 const danceFloor = document.querySelector("#danceFloor");
-const resetButton = document.querySelector("button");
+const returnButton = document.querySelector("#returnButton");
 
 let draggedPiece;
+
 console.log(theSynth),
 console.log(boomBox),
 console.log(thePiano),
@@ -41,6 +42,14 @@ function draggedOver (e) {
     console.log("Item was dropped");
     this.appendChild(draggedPiece);
 
+    function returnToOriginalPosition(danceFloor) {
+        if (draggedPiece) {
+            danceFloor.appendChild(draggedPiece);
+            draggedPiece = null;
+            danceFloor = null;
+        }
+    }
+
     //to play music// 
     
 synth.src = "audio/synth-2.wav";
@@ -72,5 +81,8 @@ thePiano.addEventListener("dragstart", startedDragging);
 theDrum.addEventListener("dragstart", startedDragging);
 danceFloor.addEventListener("dragover", draggedOver);
 danceFloor.addEventListener("drop", dropped);
+
+returnButton.addEventListener("click",returnToOriginalPosition);
+
 
 
